@@ -88,8 +88,8 @@ This analysis demonstrates a modest negative correlation between student–teach
 ## Authors
 
 - Gurpreet Kaur
-- Badamgarav Battushig – bbattushig@seattleu.edu  
-- Naomi Le Mouel – nlemouel@seattleu.edu  
+- Badamgarav Battushig
+- Naomi Le Mouel
 
 ---
 
