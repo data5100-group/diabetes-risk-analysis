@@ -1,7 +1,7 @@
 # DIABETES RISK ANALYSIS
 # Comparative Analysis of Diabetes Risk Factors and Hospital Readmission Patterns
 
-#Introduction
+## Introduction
 Diabetes is a major chronic condition affecting hundreds of millions globally and driving substantial healthcare burden. Early identification of individuals at high risk for diabetes and effective management of diagnosed patients are critical for preventing complications and reducing healthcare utilization. This project focuses on two interconnected but distinct predictive problems: identifying clinical and demographic predictors of diabetes in the general population and identifying predictors of 30-day hospital readmission among patients already diagnosed with diabetes. These goals reflect both prevention and disease-management priorities in public health.
 The first objective leverages a large, diverse Kaggle clinical dataset to determine which measurable factors most strongly distinguish individuals with diabetes from those without. The second objective draws on the U.S. hospital readmission dataset from the UCI Machine Learning Repository to assess whether commonly recorded care-utilization variables can reliably predict early rehospitalization-an important but difficult-to-manage quality metric.
 Together, these analyses help clarify what drives diabetes onset versus challenges in ongoing diabetes management.
