@@ -1,0 +1,12 @@
+##Data Sources
+
+Diabetes 130-US Hospitals (1999–2008)
+Source: UCI Machine Learning Repository
+Link: https://archive.ics.uci.edu/dataset/296/diabetes-130-us-hospitals-for-years-1999-2008
+
+100,000 Diabetes Clinical Dataset
+Source: Kaggle
+Link: https://www.kaggle.com/datasets/priyamchoksi/100000-diabetes-clinical-dataset
+
+Both datasets contain sufficient information for demographic, clinical, and readmission-related analysis. Data preprocessing and cleaning will be required before performing analysis.
+
