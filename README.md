@@ -1,4 +1,3 @@
-# DIABETES RISK ANALYSIS
 # A Comparative Analysis of Clinical Predictors for Diabetes and Hospital Readmission
 
 ## Introduction
