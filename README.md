@@ -1,5 +1,5 @@
 # DIABETES RISK ANALYSIS
-# Comparative Analysis of Diabetes Risk Factors and Hospital Readmission Patterns
+# A Comparative Analysis of Clinical Predictors for Diabetes and Hospital Readmission
 
 ## Introduction
 Diabetes is a major chronic condition affecting hundreds of millions globally and driving substantial healthcare burden. Early identification of individuals at high risk for diabetes and effective management of diagnosed patients are critical for preventing complications and reducing healthcare utilization. This project focuses on two interconnected but distinct predictive problems: identifying clinical and demographic predictors of diabetes in the general population and identifying predictors of 30-day hospital readmission among patients already diagnosed with diabetes. These goals reflect both prevention and disease-management priorities in public health.
@@ -7,15 +7,12 @@ The first objective leverages a large, diverse Kaggle clinical dataset to determ
 Together, these analyses help clarify what drives diabetes onset versus challenges in ongoing diabetes management.
 
 ## Project Overview
-This project analyzes and compares two main aspects of diabetes care using publicly available healthcare datasets:
-1. Identify key clinical and demographic factors associated with diabetes diagnosis.
-2. Understand hospital readmission patterns among diabetic patients within 30 days.
+This project examines diabetes diagnosis and hospital readmission risk using publicly available clinical datasets. The analysis focuses on identifying key clinical and demographic factors associated with diabetes and understanding patterns of 30-day hospital readmissions among diabetic patients. By comparing predictors across datasets, the project highlights common risk factors that influence both diabetes outcomes and readmission likelihood, offering insight into broader challenges in diabetes management and care.
 
-The purpose is to discover common risk factors influencing both diabetes diagnosis and hospital readmissions, which may indicate systemic challenges in diabetes management.
 
 ---
 
-## Team Members
+## Project Participants
 - Gurpreet Kaur – gkaur6@seattleu.edu  
 - Badamgarav Battushig – bbattushig@seattleu.edu  
 - Naomi Le Mouel – nlemouel@seattleu.edu  
@@ -49,14 +46,14 @@ Both datasets contain sufficient information for demographic, clinical, and read
 
 ## Analytical Approach
 1. **Exploratory Data Analysis (EDA)**  
-   - Summarize and visualize demographic and clinical distributions.  
-   - Examine correlations between variables such as glucose, BMI, and age.  
-   - Identify missing values and outliers.
+   - Summarize and visualize demographic and clinical variable distributions.  
+   - Examine relationships between key variables such as glucose, BMI, and age.  
+   - Identify missing values, inconsistencies, and potential outliers.
 
 2. **Statistical and Predictive Modeling**  
-   - Conduct hypothesis testing to compare diabetic vs. non-diabetic patients.  
-   - Build predictive models to estimate readmission likelihood.  
-   - Compare key features between datasets to identify shared predictors.
+   - Perform hypothesis testing to compare diabetic and non-diabetic patient groups.  
+   - Build predictive models to estimate diabetes and readmission risk.  
+   - Compare feature importance across datasets to identify consistent predictors.
 
 ---
 
@@ -77,19 +74,48 @@ Both datasets contain sufficient information for demographic, clinical, and read
 
 ## Collaboration and Workflow
 - Communication: Microsoft Teams  
-- Code Sharing: GitHub repository  
-- Meeting Schedule: Weekly check-in every Wednesday at 9 AM PST  
-- Shared Notes: Google Docs
+- Code Sharing and Version Control: GitHub repository  
+- Meeting Schedule: Weekly check-in every Wednesday at 9:00 AM PST  
+- Shared Notes and Drafts: Google Docs  
+- Presentation Collaboration: Google Slides  
 
 ## Results
 
-This analysis demonstrates a modest negative correlation between student–teacher ratios and ACT performance at the state level. While smaller class sizes appear to offer benefits, effective educational improvement requires multifaceted policy approaches. The student-teacher ratio is not a strong predictor to analyse the ACT scores.From the comparative analysis of the five socioeconomic variables, economic disadvantage (percent lunch) emerged as the most consistent and influential predictor of student performance.
+Our analysis showed that laboratory measures related to glycemic control were the strongest predictors of diabetes and hospital readmission risk. Across all models, HbA1c and blood glucose consistently contributed the most to predictive performance, confirming their clinical relevance. Body mass index and age also had meaningful influence, reflecting known metabolic and demographic risk factors. Comorbid conditions such as hypertension and heart disease provided additional, though smaller, improvements in prediction accuracy. In contrast, most demographic variables had relatively low importance once clinical indicators were included, suggesting that medical and physiological features play a larger role in identifying diabetes-related outcomes than demographic characteristics alone.
 
 ## Authors
 
 - Gurpreet Kaur
 - Badamgarav Battushig
 - Naomi Le Mouel
+
+---
+
+## References
+
+- Strack, B., DeShazo, J. P., Gennings, C., Olmo, J. L., Ventura, S., Cios, K. J., & Clore, J. (2014).  
+  *Impact of HbA1c measurement on hospital readmission rates: Analysis of 70,000 clinical database patient records.*  
+  BioMed Research International, 2014.
+
+- UCI Machine Learning Repository. (2014).  
+  *Diabetes 130-US hospitals for years 1999–2008.*  
+  https://archive.ics.uci.edu/
+
+- Choksi, S. (2023).  
+  *100,000 diabetes clinical dataset.*  
+  Kaggle. https://www.kaggle.com/
+
+- Zarghani, A., et al. (2024).  
+  *Comparative analysis of LSTM neural networks and traditional machine learning models for predicting diabetes patient readmission.*  
+  arXiv.
+
+- Sarthak, Shukla, & Tripathi. (2020).  
+  *EmbPred30: Assessing 30-days readmission for diabetic patients using categorical embeddings.*  
+  arXiv.
+
+- Hasan, M., & Yasmin, F. (2025).  
+  *Predicting diabetes using machine learning: A comparative study of classifiers.*  
+  arXiv.
 
 ---
 
@@ -101,11 +127,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgements
 
-- Jupyter Notebook 
-- Google Colab
-- Microsoft Word
-- Adobe Acrobat
-- Github Repository
+- Google Colab  
+- Google Slides  
+- Microsoft Word  
+- Adobe Acrobat  
+- GitHub
+- Capcut
+- Canvas
+- Microsoft Teams
 
 ---
 
